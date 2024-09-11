@@ -10,7 +10,6 @@
 
 
 
-
 % Tipo de documento ytamaño de letra
 \documentclass[10pt]{article}
 
@@ -22,25 +21,14 @@
 
 % Permite manejo de ecuaciones y símbolos matemáticos
 \usepackage{amsmath, amssymb, amsthm, amsfonts}
-
-% Paquete para agregar imágenes
-\usepackage{graphicx}
-
+\usepackage{natbib}
 % Paquete para hipervinculos
 \usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    urlcolor=black,
-    citecolor=black}
-
-
 % Permite el manejo de caracteres especiales en el español
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
 
-% Subrayado de textos
-\usepackage[normalem]{ulem}
+
 
 % Personalizar los encabezados y pies de página
 \usepackage{fancyhdr}
@@ -51,10 +39,6 @@
 
 % Ajusta el espacio entre renglones
 \setlength{\parskip}{0.5cm}
-
-
-
-
 
 % Información del artículo
 \title{\Huge Introducción a Oollama}
@@ -98,4 +82,9 @@ Como trabajo futuro, se propone investigar las siguientes líneas de investigaci
 \end{itemize}
 
 En conclusión, este trabajo representa un primer paso hacia la integración de modelos de lenguaje de gran tamaño con servicios web, abriendo un amplio abanico de posibilidades para el desarrollo de aplicaciones inteligentes y automatizadas.
+
+Repositorio de respaldo \citation{illm_dfernafa}.
+\bibliography{refes}  % Replace "refes" with the actual name of your bibliography data file
+\bibliographystyle{refes}  % Replace "refes" with the appropriate citation style (e.g., plain, apa, chicago)
+
 \end{document}

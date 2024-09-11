@@ -54,18 +54,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amscls\amsthm.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\amscls\amsthm.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
@@ -126,41 +116,13 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.aux
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.aux
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.aux
 OUTPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.aux
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
-OUTPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.pdf
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
-INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
 OUTPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
+OUTPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
@@ -193,6 +155,9 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\dfernafa\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.bbl
+INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.bbl
+INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.bbl
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecsl1000.tfm
 INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.aux
 INPUT c:\Users\dfernafa\Desktop\Personal\Universidad\Electiva\illm_dfernafa\build\Informe.out
