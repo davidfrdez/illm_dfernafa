@@ -30,7 +30,7 @@ se descaga el modelo con ayuda de  [ollama libreria](https://ollama.com/library)
  ollama pull gemma:2b
 ````
 
-# 1.4 lista de de modelos 
+# 1.4 Listar modelos disponibles:
 
 ```` bash
   ollama list
@@ -40,14 +40,14 @@ se descaga el modelo con ayuda de  [ollama libreria](https://ollama.com/library)
 ``` bash
 $ollama run gemma:2b ¿por qué el cielo es azúl?
 ```
-# 1.6  modo chat desde la terminal 
+# 1.6  Ejecutar un modelo en modo chat:
 
 ``` bash 
 $ollama run gemma:2b
 ```
 
 
-# hacer petecion mediante curl en terminal
+# Hacer una petición HTTP (ejemplo):
 
 ```` bash
 curl http://localhost:11434/api/generate -d '{
@@ -65,5 +65,62 @@ curl -X  POST  http://localhost:11434/api/generate -d '{
 }' -O salida2.JSON
 ````  
 
+# Python Para consumo
+A partir de aquí, podemos crear servicios personalizados en cualquier lenguaje de programación para interactuar con la API de Llama y aprovechar al máximo las capacidades de los modelos de lenguaje natural.
+## 1 Instalar la librería requests:
+Esta librería es fundamental para hacer peticiones HTTP en Python. Puedes instalarla usando pip:
 
-despues de esto podemo hacer http dede cualquier servicon de codigo implementado los diferetes modelo y formas de usar el servicio de ollama con los lenguajes naturales.
+
+```` bash
+pip install requests
+````
+
+## 1.1 Importar la librería:
+
+``` Python
+import requests
+```
+
+## 1.2 Definir la URL y los datos de la petición:
+La URL será la dirección de tu servidor Llama. Los datos de la petición incluirán el modelo que deseas utilizar, el prompt (la pregunta o solicitud) y otros parámetros opcionales.
+``` Python
+url = "http://localhost:11434/api/generate"  # Ajusta la URL si tu servidor está en otro puerto
+datos = {
+    "model": "tinyllama",
+    "prompt": "¿Cuál es la capital de Francia?"
+}
+```
+## 1.3 Realizar la petición POST:
+Utilizamos el método **post()** de la librería requests para enviar la petición al servidor:
+``` Python
+respuesta = requests.post(url, json=datos)
+```
+## 1.4 Procesar la respuesta:
+La respuesta del servidor generalmente es un objeto JSON. Puedes acceder al contenido de la respuesta de la siguiente manera:
+
+``` Python
+if respuesta.status_code == 200:
+    resultado = respuesta.json()
+    print(resultado)
+else:
+    print("Error:", respuesta.text)
+```
+### Ejemplo completo
+
+``` Python
+import requests
+
+url = "http://localhost:11434/api/generate"
+datos = {
+    "model": "tinyllama",
+    "prompt": "¿Cuál es la capital de Francia?"
+}
+
+respuesta = requests.post(url, json=datos)
+
+if respuesta.status_code == 200:
+    resultado = respuesta.json()
+    print(resultado['choices'][0]['text'].strip())
+else:
+    print("Error:", respuesta.text)
+```

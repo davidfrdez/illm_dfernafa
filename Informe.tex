@@ -1,0 +1,101 @@
+
+%
+% @author {Juan Manuel Aviña Muñoz}
+% @email {juan.avina.m@gmail.com}
+% @year 2023
+% @version 1.0
+% @license CC BY 4.0
+%
+% Se agradecen sus comentarios, contribuciones, reporte de bugs y la difusión de esta plantilla.
+
+
+
+
+% Tipo de documento ytamaño de letra
+\documentclass[10pt]{article}
+
+% Ajuste de lenguaje
+\usepackage[spanish, english]{babel}
+
+% Tamaño de página y margenes
+\usepackage[letterpaper, top=2.5cm,bottom=3.5cm, left=3cm, right=2.5cm, marginparwidth=1.75cm]{geometry}
+
+% Permite manejo de ecuaciones y símbolos matemáticos
+\usepackage{amsmath, amssymb, amsthm, amsfonts}
+
+% Paquete para agregar imágenes
+\usepackage{graphicx}
+
+% Paquete para hipervinculos
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black}
+
+
+% Permite el manejo de caracteres especiales en el español
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+
+% Subrayado de textos
+\usepackage[normalem]{ulem}
+
+% Personalizar los encabezados y pies de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Ajusta la sangría
+\setlength{\parindent}{1cm}
+
+% Ajusta el espacio entre renglones
+\setlength{\parskip}{0.5cm}
+
+
+
+
+
+% Información del artículo
+\title{\Huge Introducción a Oollama}
+\author{\Large David Santiago Fernandez Fandiño\\ 100911 }
+\date{\normalsize Universidad ECCI \\
+\textit{davids.fernandezf@ecci.edu.co}}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \section{Introducción}
+\end{center}
+
+En los últimos años, los grandes modelos de lenguaje (LLM) han revolucionado el campo de la inteligencia artificial. Uno de estos modelos, ollama, ha demostrado ser una herramienta poderosa para diversas tareas, desde la generación de texto hasta la traducción de idiomas. En este proyecto, exploraremos cómo podemos aprovechar las capacidades de oollama para consumir servicios HTTP de manera eficiente y flexible.
+
+\section{Objetivos}
+El presente trabajo tiene como objetivo principal demostrar la viabilidad de utilizar modelos de lenguaje de gran tamaño, como ollama, para interactuar con servicios web a través de protocolos HTTP. Específicamente, se busca:
+
+\begin{itemize}
+    \item Desarrollar una arquitectura que permita a ollama generar solicitudes HTTP de manera dinámica y procesar las respuestas recibidas.
+    \item Evaluar la capacidad de ollama para extraer información relevante de los servicios HTTP y generar respuestas coherentes y útiles.
+    \item Analizar el impacto de diferentes técnicas de prompt engineering en la calidad de las respuestas generadas por ollama.
+    \item Identificar las limitaciones y desafíos asociados con el uso de ollama para este tipo de aplicaciones.
+\end{itemize}
+
+\section{Conclusiones}
+En este trabajo hemos explorado la posibilidad de utilizar el modelo de lenguaje ollama para interactuar con servicios web a través de protocolos HTTP. Los resultados obtenidos demuestran que ollama tiene un gran potencial para automatizar tareas, crear interfaces conversacionales y extraer información de servicios web. 
+
+Sin embargo, también hemos identificado algunas limitaciones, como la necesidad de diseñar prompts cuidadosamente y la importancia de contar con datos de entrenamiento de alta calidad.
+
+Como trabajo futuro, se propone investigar las siguientes líneas de investigación:
+
+\begin{itemize}
+    \item Explorar la integración de ollama con otros modelos de IA, como modelos de visión por computadora, para crear aplicaciones más sofisticadas.
+    \item Desarrollar técnicas para mejorar la robustez de ollama ante cambios en las estructuras de los servicios web.
+    \item Analizar el impacto del tamaño del modelo y la arquitectura en el rendimiento y la calidad de las respuestas.
+\end{itemize}
+
+En conclusión, este trabajo representa un primer paso hacia la integración de modelos de lenguaje de gran tamaño con servicios web, abriendo un amplio abanico de posibilidades para el desarrollo de aplicaciones inteligentes y automatizadas.
+\end{document}
